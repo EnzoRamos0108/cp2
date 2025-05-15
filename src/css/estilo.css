@@ -376,10 +376,126 @@
   to { opacity: 1; transform: translateX(0); }
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .fade-in-left {
   animation: fadeInLeft 1s ease-in-out forwards;
 }
 
 .fade-in-right {
   animation: fadeInRight 1s ease-in-out forwards;
+}
+
+/* PÁGINA DO QUIZ */
+
+#pagina-quiz {
+  background: linear-gradient(to bottom, #1a1a1a, #000);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  padding-top: 130px;
+  min-height: 100vh;
+}
+
+.header-quiz {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+
+#container-quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.quiz {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  max-width: 700px;
+  width: 100%;
+  animation: fadeIn 1s ease;
+}
+
+.quiz h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+}
+
+#container-perguntas h2 {
+  margin-bottom: 15px;
+}
+
+#resposta {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: white;
+  font-size: 1em;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.escondido {
+  display: none;
+}
+
+#container-resultado {
+  margin-top: 30px;
+}
+
+#container-resultado h2 {
+  color: red;
+  margin-bottom: 15px;
+}
+
+#lista-resultado {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-resultado li {
+  background-color: #222;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-left: 4px solid red;
+}
+
+#mensagem {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 0.95em;
+  min-height: 20px;
 }

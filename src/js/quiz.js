@@ -49,8 +49,8 @@ botaoProximo.addEventListener("click", () => {
 });
 
 function exibirResultado() {
-  containerPerguntas.classList.add("hidden");
-  containerResultado.classList.remove("hidden");
+  containerPerguntas.classList.add("escondido");
+  containerResultado.classList.remove("escondido");
   listaResultado.innerHTML = "";
 
   respostas.forEach((item, index) => {
@@ -63,8 +63,8 @@ function exibirResultado() {
 botaoInicio.addEventListener("click", () => {
   indiceAtual = 0;
   respostas.length = 0;
-  containerResultado.classList.add("hidden");
-  containerPerguntas.classList.remove("hidden");
+  containerResultado.classList.add("escondido");
+  containerPerguntas.classList.remove("escondido");
   mostrarPergunta();
 });
 
