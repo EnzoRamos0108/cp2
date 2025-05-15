@@ -287,3 +287,80 @@
 #corpo-carros footer {
   background-color: #1a1a1a;
 }
+
+/* PAGINA SOBRE  */
+
+#sobre-page {
+  background: linear-gradient(to bottom, #1a1a1a, #121212);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 130px;
+}
+
+.sobre-header {
+  background-color: #121212;
+}
+
+.sobre-container {
+  padding: 40px 60px;
+}
+
+.sobre-container section {
+  margin-bottom: 60px;
+  max-width: 900px;
+}
+
+.sobre-container h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.textoVermelho {
+  color: red;
+}
+
+.sobre-container p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #cccccc;
+}
+
+.quem-somos {
+  text-align: left;
+}
+
+.nossa-historia {
+  text-align: right;
+  margin-left: auto;
+}
+
+.footer-sobre {
+  background-color: #121212;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer-sobre h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 40px;
+}
+
+.fundadores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.fundador {
+  text-align: center;
+}
+
+.fundador p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
