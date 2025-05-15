@@ -1,0 +1,9 @@
+Curso Engenharia de Software
+Sala: 1ESPF25
+
+Enzo Fernandes Ramos RM:563705
+Felipe Henrique de Souza Cerazi RM:562746
+Gustavo Peaguda de Castro RM:562923
+Lorenzo Andolfatto Coque RM:563385
+
+Link do Repositório: https://github.com/EnzoRamos0108/cp2.git
