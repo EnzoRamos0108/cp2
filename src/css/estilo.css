@@ -364,3 +364,22 @@
   font-weight: bold;
   color: white;
 }
+
+/*ANIMAÇÕES EM GERAL*/
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.fade-in-left {
+  animation: fadeInLeft 1s ease-in-out forwards;
+}
+
+.fade-in-right {
+  animation: fadeInRight 1s ease-in-out forwards;
+}
